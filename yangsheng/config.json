@@ -1,0 +1,22 @@
+{
+  "debug": true,
+
+  "print":{
+    "logOrErrorPrint": true,
+    "sqlLogPrint": true
+  },
+  //日记记录
+  "logPath": {
+    "log": ".\\Log\\Log",
+    "error": ".\\Log\\Error",
+    "sql": ".\\Log\\Sql"
+  },
+  //数据库配置
+  "mysql": {
+    "host": "127.0.0.1",
+    "user": "root",
+    "passwd": "root",
+    "db": "dtl_site_cnys",
+    "charset": "utf8"
+  }
+}
